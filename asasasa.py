@@ -63,7 +63,7 @@ marked_names = []
 
 while True:
     # Capture frame-by-frame
-    ret, frame = cap.read()
+    ret, frame = cap.rade()
 
     # Convert the frame from BGR color (which OpenCV uses) to RGB color (which face_recognition uses)
     rgb_frame = frame[:, :, ::-1]
